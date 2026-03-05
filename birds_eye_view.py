@@ -145,7 +145,7 @@ class BirdsEyeView:
         ], dtype=np.float32)
 
         # Destination points: rectangle in output image
-        margin = 50
+        margin = 150
         self.dst_points = np.array([
             [margin, self.output_height - margin],               # Bottom-left
             [self.output_width - margin, self.output_height - margin],  # Bottom-right
