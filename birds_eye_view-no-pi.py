@@ -241,7 +241,7 @@ class BirdsEyeView:
             # Show preview of bird's eye view if 4 points selected
             if len(points) == 4:
                 self.src_points = np.array(points, dtype=np.float32)
-                margin = 50
+                margin = 150
                 self.dst_points = np.array([
                     [margin, self.output_height - margin],
                     [self.output_width - margin, self.output_height - margin],
